@@ -10,7 +10,7 @@ def horizontal(a:list):
             break
     return
 
-#horizontal(input_array)
+horizontal(input_array)
                        
 def vertical(a:list):
     for i in range(3):
