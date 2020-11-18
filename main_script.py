@@ -10,7 +10,17 @@ def horizontal(a:list):
             break
     return
 
-horizontal(input_array)
+#horizontal(input_array)
                        
+def vertical(a:list):
+    for i in range(3):
+        arr=list()
+        for j in range(3):
+            arr.append(a[j][i])
+        if(len(set(arr))==1):
+            print(str(arr[0])+"won")
+            break
+    return
 
+vertical(input_array)
     
